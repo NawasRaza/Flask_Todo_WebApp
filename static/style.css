@@ -1,0 +1,47 @@
+h1, h4
+{
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th 
+{
+  height: 70px;
+  background-color: #04AA6D;
+  color: white;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover 
+{
+    background-color: coral;
+}
+
+.content
+{
+    text-align: center;
+}
+
+body
+{
+    font-family: "Helvetica", Sans-Serif;
+    background-image: url('../static/assests/background-img.png');
+
+}
